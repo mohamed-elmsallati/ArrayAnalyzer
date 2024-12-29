@@ -6,7 +6,7 @@ public class App {
         String starting_massage = "Menu: \n Select option: \n 1. Length of an array after removing duplicate elements \n 2. Find the sum of two elements in the array which equals to a target integer \n 3. Merge elements of array A with B by maintaining the sorted order \n 4. Return the missing letter from an array of increasing letters \n 5. Check whether an array is negative dominant or not \n 6. Exit \n Input====> ";
 
         System.out.print(starting_massage);
-
+        
         int choice = console_scan.nextInt();
         System.out.println();
 
@@ -131,11 +131,11 @@ public class App {
                 break;
                 
             case 5:
-                System.out.println("Enter the size of the array: ");
+                System.out.print("Enter the size of the array:");
                 int size5 = console_scan.nextInt();
                 int[] A5 = new int[size5];
                 for (int x = 0; x < A5.length; x++) {
-                    System.out.print("Enter the array element[" + x + "]: ");
+                    System.out.print("Enter the array element[" + x + "]:");
                     A5[x] = console_scan.nextInt();
                 }
 
