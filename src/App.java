@@ -23,7 +23,7 @@ public class App {
 
         switch (choice) {
            
-            case 1:
+            case 1: //  DONE:
                 System.out.print("Enter the size of the array: ");
                 int size = console_scan.nextInt();
                 int[] A = new int[size];
@@ -74,7 +74,7 @@ public class App {
                 System.out.println("Length of array after removing duplicates: " + uniqueCount);
                 break;
         
-            case 2:
+            case 2: // DONE: 
                 System.out.print("Enter the size of the array: ");
                 int size2 = console_scan.nextInt();
                 int[] A2 = new int[size2];
@@ -97,7 +97,7 @@ public class App {
                 break;
 
             case 3:
-            // TODO: clean up and remove the use of the array C
+            // TODO: clean up and remove the use of the array C if necessary
                 System.out.print("Enter the size of array A: ");
                 int sizeA = console_scan.nextInt();
                 int[] A3 = new int[sizeA];
@@ -154,7 +154,7 @@ public class App {
 
 
             
-            case 4:
+            case 4: // Added support for both upper and lower case letters
                 System.out.print("Enter the size of the array: ");
                 int size4 = console_scan.nextInt();
                 char letters[] = new char[size4];
@@ -177,7 +177,7 @@ public class App {
                 System.out.println("The missing letter from the array is: " + missingLetter);
                 break;
                 
-            case 5:
+            case 5: // DONE:
                 System.out.print("Enter the size of the array:");
                 int size5 = console_scan.nextInt();
                 int[] A5 = new int[size5];
@@ -213,7 +213,7 @@ public class App {
                 }
                 break;
             
-            case 6:
+            case 6: //  DONE:
                 System.out.println("Exiting...");
                 break;
 
